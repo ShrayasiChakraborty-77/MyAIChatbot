@@ -110,7 +110,8 @@ export default function ChatBot() {
 
     try {
       const response = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyB9XP29JZpyWs_CFmpLSaOx8XU9QgBSJuA",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=ENTER YOUR GEMINI API KEY",
+        
         {
           method: "POST",
           headers: {
